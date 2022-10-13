@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
 // применение интерфейса в классе
 class Person : IMovable
 {
@@ -19,4 +19,4 @@ struct Car : IMovable
     {
         Console.WriteLine("Машина едет");
     }
-}
+}*/
