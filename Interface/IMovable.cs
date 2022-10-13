@@ -11,15 +11,11 @@ using System.Threading.Tasks;
     // статическая переменная
     static int maxSpeed = 60;   // максимальная скорость
     // метод
-    // реализация метода по умолчанию
-    void Move()
-    {
-        Console.WriteLine("Walking");
-    }                // движение
+    void Move();                // движение
     // свойство
-   // string Name { get; set; }   // название
+    string Name { get; set; }   // название
 
-  //  delegate void MoveHandler(string message);  // определение делегата для события
+    delegate void MoveHandler(string message);  // определение делегата для события
     // событие
-  //  event MoveHandler MoveEvent;    // событие движения
+    event MoveHandler MoveEvent;    // событие движения
 }
